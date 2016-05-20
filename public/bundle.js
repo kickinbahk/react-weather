@@ -24833,15 +24833,21 @@
 	'use strict';
 
 	var React = __webpack_require__(1);
+	var WeatherForm = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"WeatherForm\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var Weather = React.createClass({
 	  displayName: 'Weather',
 
 	  render: function render() {
 	    return React.createElement(
-	      'h3',
+	      'div',
 	      null,
-	      'Weather Component'
+	      React.createElement(
+	        'h3',
+	        null,
+	        'Weather Component'
+	      ),
+	      React.createElement(WeatherForm, null)
 	    );
 	  }
 	});
