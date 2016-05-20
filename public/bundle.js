@@ -58,6 +58,7 @@
 
 	var Main = __webpack_require__(216);
 	var Weather = __webpack_require__(218);
+	var About = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"About\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	ReactDOM.render(React.createElement(
 	  Router,
