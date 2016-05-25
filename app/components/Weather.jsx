@@ -16,11 +16,12 @@ var Weather = React.createClass({
     })
   },
   render: function () {
+    var {temp, location} = this.state
     return (
       <div>
         <h3>Weather Component</h3>
         <WeatherForm onSearch={this.handleSearch} />
-        <WeatherMessage />
+        <WeatherMessage temp={temp} location={location} />
       </div>
     )
   }
