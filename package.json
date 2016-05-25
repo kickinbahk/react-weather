@@ -1,15 +1,16 @@
 {
-  "name": "boilerplate",
+  "name": "react-weather",
   "version": "1.0.0",
-  "description": "React Boilerplate",
-  "main": "index.js",
+  "description": "React Weather App",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Josiah Mory",
   "license": "MIT",
-  "repository": "https://github.com/kickinbahk/react-boilerplate.git",
+  "repository": "https://github.com/kickinbahk/react-weather.git",
   "dependencies": {
+    "axios": "^0.11.1",
     "express": "^4.13.4",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
